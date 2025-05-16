@@ -1,6 +1,6 @@
-# 📝 BlogSphere - A Blog Posting App with Authentication
+# 📝 Blogspot - A Blog Posting App
 
-**BlogSphere** is a full-featured blog application built with **React** and **Appwrite BaaS**. It enables users to register, log in, and manage their blog posts seamlessly.
+**BlogSpot** is a full-featured blog application built with **React** and **Appwrite BaaS**. It enables users to register, log in, and manage their blog posts seamlessly.
 
 ## 🚀 Features
 
