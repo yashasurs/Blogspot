@@ -24,10 +24,9 @@ export class AuthService {
             console.error('Error creating account:', error);
             throw error;
         }
-    }
-    async login({ email, password }) {
+    }    async login({ email, password }) {
         try {
-            const session = await this.account.createEmailSession(email, password);
+            const session = await this.account.createEmailPasswordSession(email, password);
             return session;
         } catch (error) {
             console.error('Error logging in:', error);
